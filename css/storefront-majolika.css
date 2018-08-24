@@ -201,3 +201,13 @@ h4 {
   height: 400px;
   background-color: grey;
 }
+
+/**--------------------------------------------------------------
+# space between title and tiles
+--------------------------------------------------------------*/ 
+
+@media (min-width: 768px)
+.storefront-full-width-content .woocommerce-products-header, .storefront-full-width-content.woocommerce-account .entry-header, .storefront-full-width-content.woocommerce-cart .entry-header, .storefront-full-width-content.woocommerce-checkout .entry-header {
+    text-align: center;
+    padding: 0 0 3.9968353111em;
+}
