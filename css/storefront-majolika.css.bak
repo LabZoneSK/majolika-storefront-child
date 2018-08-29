@@ -120,9 +120,6 @@ h4 {
   width: 24%;
 }
 
-.has-text-centered {
-  text-align: center;
-}
 /* Majolika Storefront Overrides */
 
 .storefront-primary-navigation {
@@ -151,19 +148,17 @@ h4 {
 }
 
 .site-footer {
-  background: whitesmoke;
+  background: whitesmoke url(../media/majolika-footer.png) center right
+    no-repeat;
 }
 
-.site-footer-logo {
-  display: block;
-  margin: auto;
+/* Desktop */
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+  .site-footer {
+    background: whitesmoke url(../media/majolika-footer-tab.png) center right
+      no-repeat;
+  }
 }
-
-.social-icon {
-  display:inline-block;
-  width: 30px;
-}
-
 /* Mobile */
 @media screen and (max-width: 450px) {
   .flex-columns-simple {
@@ -193,10 +188,6 @@ h4 {
   .site-footer {
     background: whitesmoke;
   }
-
-  .site-footer-logo {
-    display: none;
-  }
 }
 
 /** Parent Theme Overwrites */
@@ -211,31 +202,6 @@ h4 {
   background-color: grey;
 }
 
-/* space fix */
-.storefront-full-width-content .woocommerce-products-header {
-  text-align: center;
-  padding: 0 0 1em;
-}
+/* space fix */ 
 
-/* title position with left nav fix */
-
-.widget_product_categories ul li::before {
-  content: "\f105";
-}
-.widget_nav_menu ul li::before {
-  content: "\f101";
-}
-
-/* Headers margin */
-h1,
-h2,
-h3,
-h4,
-h5,
-p + h2,
-p + h1,
-p + h3,
-p + h4,
-p + h5 {
-  margin: 0.5em 0;
-}
+.storefront-full-width-content.single-product #reviews .commentlist ul.children .comment-text{width:84.6153846154%;float:right;margin-right:0}.storefront-full-width-content .woocommerce-products-header,.storefront-full-width-content.woocommerce-account .entry-header,.storefront-full-width-content.woocommerce-cart .entry-header,.storefront-full-width-content.woocommerce-checkout .entry-header{text-align:center;padding:0 0 1em}
