@@ -14,12 +14,12 @@
 
 	<?php do_action('storefront_before_footer');?>
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
+	<footer id="colophon" class="site-footer site-footer-small" role="contentinfo">
 		<div class="col-full">
 			<div class="flex-columns">
 				<div class="col">
-					Všeobecné obchodné podmienky<br/>
-					Ochrana osobných údajov
+					<a href="/vseobecne-obchodne-podmienky/">Všeobecné obchodné podmienky</a><br/>
+					<a href="/ochrana-a-spracovanie-osobnych-uajov/">Ochrana osobných údajov</a>
 				</div>
 				<div class="col has-text-centered">
 					<img class="site-footer-logo" src="<?= get_stylesheet_directory_uri(); ?>/media/logo-SLM-102x108.png" alt="Logo Slovenská ľudová majolika">
