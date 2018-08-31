@@ -63,10 +63,6 @@
 	}
 	?>
 
-  <div class="hero-small">
-	  <img src="<?= get_stylesheet_directory_uri(); ?>/media/<?= $leadimage ?>"/>
-  </div>
-
 	<div id="content" class="site-content" tabindex="-1">
 		<div class="col-full">
 

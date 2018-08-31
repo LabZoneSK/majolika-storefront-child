@@ -26,6 +26,11 @@ var GoogleMaps = {
 var MajolikaSite = {
   init: function () {
     //GoogleMaps.init();
+    this.removeEntryMeta();
+  },
+  removeEntryMeta: function() {
+    const metaData = document.querySelector('.entry-meta');
+    metaData.parentNode.removeChild(metaData);
   }
 }
 MajolikaSite.init();
