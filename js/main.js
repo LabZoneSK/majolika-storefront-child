@@ -27,10 +27,22 @@ var MajolikaSite = {
   init: function () {
     //GoogleMaps.init();
     this.removeEntryMeta();
+    this.mastheadPromo();
   },
   removeEntryMeta: function() {
     const metaData = document.querySelector('.entry-meta');
-    metaData.parentNode.removeChild(metaData);
+    if(metaData) {
+      metaData.parentNode.removeChild(metaData);
+    }  
+  },
+  mastheadPromo: function() {
+    const masthead = document.getElementById('masthead');
+    masthead.addEventListener('click', function(event) {
+      console.log()
+      if(event.target.className === 'col-full') {
+        window.location = '/produkt/doza-srdce-habanska/'
+      }
+    })
   }
 }
 MajolikaSite.init();

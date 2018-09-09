@@ -269,3 +269,8 @@ p + h4,
 p + h5 {
   margin: 0.5em 0;
 }
+
+/* Site branding width fix */
+.site-branding {
+  width: auto !important;
+}
