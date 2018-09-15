@@ -19,7 +19,8 @@
 			<div class="flex-columns">
 				<div class="col">
 					<a href="/vseobecne-obchodne-podmienky/">Všeobecné obchodné podmienky</a><br/>
-					<a href="/ochrana-a-spracovanie-osobnych-uajov/">Ochrana osobných údajov</a>
+					<a href="/ochrana-a-spracovanie-osobnych-udajov/">Ochrana osobných údajov</a><br/>
+					<a href="/kontakty/">Kontakty</a>
 				</div>
 				<div class="col has-text-centered">
 					<img class="site-footer-logo" src="<?= get_stylesheet_directory_uri(); ?>/media/logo-SLM-102x108.png" alt="Logo Slovenská ľudová majolika">
