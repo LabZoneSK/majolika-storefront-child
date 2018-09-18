@@ -26,7 +26,7 @@
 					<img class="site-footer-logo" src="<?= get_stylesheet_directory_uri(); ?>/media/logo-SLM-102x108.png" alt="Logo Slovenská ľudová majolika">
 				</div>
 				<div class="col">
-					Slovenská ľudová majolika, a.s. @<?= date("Y") ?> <br/>
+					<a href="https://majolikamodra.sk/o-nas/">Slovenská ľudová majolika</a> @<?= date("Y") ?> <br/>
 					<a class="social-icon" href="/kontakty" title="Kliknutím na odkaz prejdete na stránku Kontakty">
 						<img src="<?= get_stylesheet_directory_uri(); ?>/media/contact.png" alt="Facebook Slovenská ľudová majolika" />
 					</a>
