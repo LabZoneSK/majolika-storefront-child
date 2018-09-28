@@ -104,13 +104,16 @@ h4 {
   max-width: 100%;
   align-items: stretch;
 }
+
 .flex-columns-simple {
   display: flex;
   flex-direction: row;
 }
+
 .col {
   width: 32%;
 }
+
 .col-4 {
   width: 24%;
 }
@@ -118,6 +121,7 @@ h4 {
 .has-text-centered {
   text-align: center;
 }
+
 /* Majolika Storefront Overrides */
 
 .storefront-primary-navigation {
@@ -132,16 +136,16 @@ h4 {
   background: #fff url('../media/masthead.jpg') no-repeat top center;
 }
 
-.nav-menu .menu-item > a,
+.nav-menu .menu-item>a,
 .site-header-cart li .cart-contents {
   color: white !important;
 }
 
-.sub-menu .menu-item > a {
+.sub-menu .menu-item>a {
   color: black !important;
 }
 
-.nav-menu .current-menu-item > a {
+.nav-menu .current-menu-item>a {
   color: #e8e8e8 !important;
 }
 
@@ -159,7 +163,7 @@ h4 {
 }
 
 .social-icon {
-  display:inline-block;
+  display: inline-block;
   width: 30px;
 }
 
@@ -167,6 +171,7 @@ h4 {
 .entry-meta {
   display: none;
 }
+
 .entry-content {
   width: 100% !important;
 }
@@ -174,15 +179,24 @@ h4 {
 /* Zoom in effect for product category */
 .product-category img {
   max-width: 100%;
-  
+
   -moz-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
+
 .product-category:hover img {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+/* Style font in product categories list */
+.widget_product_categories .product-categories .cat-item a,
+.widget-area .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item a {
+  color: black;
+  font-weight: normal;
+  text-decoration: none;
 }
 
 /* Mobile */
@@ -209,6 +223,7 @@ h4 {
   .site-header {
     background: #fff;
   }
+
   .site-branding,
   .hero-small {
     display: none;
@@ -224,7 +239,7 @@ h4 {
 }
 
 /** Parent Theme Overwrites */
-.nav-menu .sub-menu .current-menu-item > a {
+.nav-menu .sub-menu .current-menu-item>a {
   color: #757575 !important;
 }
 
@@ -246,6 +261,7 @@ h4 {
 .widget_product_categories ul li::before {
   content: "\f105";
 }
+
 .widget_nav_menu ul li::before {
   content: "\f101";
 }
@@ -256,11 +272,11 @@ h2,
 h3,
 h4,
 h5,
-p + h2,
-p + h1,
-p + h3,
-p + h4,
-p + h5 {
+p+h2,
+p+h1,
+p+h3,
+p+h4,
+p+h5 {
   margin: 0.5em 0;
 }
 

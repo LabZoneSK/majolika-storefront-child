@@ -18,8 +18,11 @@ remove_action('wp_head', 'print_emoji_detection_script', 7);
 remove_action('wp_print_styles', 'print_emoji_styles');
 
 /** Remove Storefront Google Fonts */
-function majolika_child_styles(){
+function majolika_child_styles()
+{
     wp_dequeue_style('storefront-fonts');
 }
-add_action( 'wp_enqueue_scripts', 'majolika_child_styles', 999);
+add_action('wp_enqueue_scripts', 'majolika_child_styles', 999);
 
+/** Set image compression level */
+add_filter('jpeg_quality', function($arg) {return 100;});
