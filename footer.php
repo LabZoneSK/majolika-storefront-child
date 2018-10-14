@@ -31,10 +31,16 @@
 						<img src="<?= get_stylesheet_directory_uri(); ?>/media/contact.png" alt="Facebook Slovenská ľudová majolika" />
 					</a>
 					<a class="social-icon" href="https://www.facebook.com/majolikamodra/" title="Kliknutím na odkaz prejdete na Facebook Slovenská ľudová majolika">
-						<img src="<?= get_stylesheet_directory_uri(); ?>/media/facebook-logo.png" alt="Facebook Slovenská ľudová majolika" />
+						<img src="<?= get_stylesheet_directory_uri(); ?>/media/facebook-logo.png" alt="Facebook | Slovenská ľudová majolika" />
 					</a>
-					<a class="social-icon" href="https://www.instagram.com/explore/locations/335621173/slovenska-ludova-majolika-modra/?hl=en" title="Kliknutím na odkaz prejdete na Instagram Slovenská ľudová majolika">
-						<img src="<?= get_stylesheet_directory_uri(); ?>/media/instagram-logo.png" alt="Instagram Slovenská ľudová majolika" />
+					<a class="social-icon" href="https://www.instagram.com/majolikamodra.sk/" title="Kliknutím na odkaz prejdete na Instagram Slovenská ľudová majolika">
+						<img src="<?= get_stylesheet_directory_uri(); ?>/media/instagram-logo.png" alt="Instagram | Slovenská ľudová majolika" />
+					</a>
+					<a class="social-icon" href="https://sk.pinterest.com/slovenskudovmajolika/?eq=slovensk%C3%A1%20%C4%BD&etslf=6408" title="Kliknutím na odkaz prejdete na Pinterest Slovenská ľudová majolika">
+						<img src="<?= get_stylesheet_directory_uri(); ?>/media/pinterest-logo.png" alt="Pinterest | Slovenská ľudová majolika" />
+					</a>
+					<a class="" href="https://www.sashe.sk/Modranska_Majolika" title="Kliknutím na odkaz prejdete na Sashe Slovenská ľudová majolika">
+					<img src="<?= get_stylesheet_directory_uri(); ?>/media/sashe-logo.png" alt="Sashe | Slovenská ľudová majolika" />
 					</a>
 					</div>
 				</div>
