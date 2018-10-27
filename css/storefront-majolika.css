@@ -133,7 +133,7 @@ h4 {
 }
 
 .site-header {
-  background: #fff url('../media/masthead.jpg') no-repeat top center;
+  /* background: #fff url('../media/masthead.jpg') no-repeat top center; */
 }
 
 .nav-menu .menu-item>a,
@@ -283,4 +283,99 @@ p+h5 {
 /* Site branding width fix */
 .site-branding {
   width: auto !important;
+}
+
+/* Featured product module */
+.featured {
+  position: absolute;
+  top: -2px;
+  left: 50%;
+  /* move the left edge to the center … */
+  margin-left: -275px;
+  /* … and move it to the left half the box’ width. */
+  z-index: 9999;
+  /* Try to get it on top. */
+}
+.admin-bar .featured{
+  top:15px;
+}
+
+.featured-product {
+  display: flex;
+  flex-direction: row;
+  font-family: "Alegreya", serif;
+}
+
+.featured-product-meta {
+  padding: 1em;
+}
+
+.featured-product-text {
+  font-family: "CorsicaSX", serif;
+  font-size: 16px;
+  color: #000;
+}
+
+.featured-product-title {
+  font-weight: 700;
+  font-size: 1.2em;
+  color: rgb(37, 64, 143);
+  max-width: 200px;
+}
+
+.featured-product-tag {
+  font-size: 1em;
+  color: #000;
+  margin: 0 0 1.5em 0;
+}
+.featured-product-showcase {
+  max-height: 289px;
+  overflow: hidden;
+}
+.featured-product-image {
+  max-height: 204px;
+  overflow: hidden;
+}
+.admin-bar .featured-product-image{
+  max-height: 219px;
+}
+
+.featured-product-image img{
+  height: 298px !important;
+  width: auto;
+  mix-blend-mode: multiply;
+  background: #fff;
+  border: 2px solid rgb(37, 64, 143);
+  position: relative;
+  top: -40px;
+}
+.featured-product-price {
+  position: relative;
+  top: -80px;
+  left: 200px;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  font-family: "Alegreya", serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(37, 64, 143);
+  line-height: 75px;
+  text-align: center;
+  background: rgba(255,255,255,0.9);
+  border: 2px solid rgb(37, 64, 143);
+}
+
+.featured-product-button {
+  border: 2px solid rgb(37, 64, 143);
+  background-color: white;
+  color: rgb(37, 64, 143);
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+@media screen and (max-width: 450px) {
+  .featured {
+    display: none;
+  }
 }

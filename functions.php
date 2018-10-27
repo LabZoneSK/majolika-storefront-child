@@ -1,4 +1,6 @@
 <?php
+require_once "modules/featuredProducts.php";
+
 function my_theme_enqueue_styles()
 {
     wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
@@ -34,4 +36,11 @@ function change_woocommerce_order_number( $order_id ) {
 $prefix = '2018';
 $new_order_id = $prefix . $order_id ;
 return $new_order_id;
+}
+
+/** Get featured product for masthead */
+function get_featured_products() {
+    $featuredProduct = new FeaturedProducts();
+
+    return $featuredProduct->getFeatured();
 }
